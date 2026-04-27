@@ -4,4 +4,9 @@
 #define offsetof(TYPE, MEMBER) __builtin_offsetof(TYPE, MEMBER)
 typedef __UINT64_TYPE__ size_t;
 typedef __INT64_TYPE__  ptrdiff_t;
+
+// Boolean logic
+#define bool _Bool
+#define true 1
+#define flase 0
 #endif
